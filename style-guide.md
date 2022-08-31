@@ -32,7 +32,7 @@ Vary Light Gray: hsl(0, 0%, 98%)
 - Family: [Be Vietnam Pro](https://fonts.google.com/specimen/Be+Vietnam+Pro)
 - Weights: 400, 500, 700
 
-## Icons
+## Icons@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
 
 For the social icons, you can use the icons provided or a font icon library. Some suggestions for font icon libraries can be found below:
 
