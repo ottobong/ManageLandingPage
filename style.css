@@ -27,6 +27,10 @@
         background-color: var(--neu4);
     }
 
+    h1, h2, h5, p {
+        font-family: var(--ff);
+    }
+
 
     /* -------------Nav Section---------------- */
     .navbar {
@@ -47,6 +51,7 @@
     /* -------------End---------------- */
 
 
+
     /* -------------Hero Section---------------- */
     .hero {
         background-image: url(./images/bg-tablet-pattern.svg);
@@ -56,7 +61,6 @@
 
     .herotitle, .herodes {
         text-align: center;
-        font-family: var(--ff);
     }
 
     .herotitle {
@@ -80,11 +84,44 @@
         border-radius: 50px;
         padding: 10px 20px;
         font-size: 12px; 
+        margin-bottom: 50px
     }
 
     .heroright > img {
         width: 250px;
     }
+    /* -------------End---------------- */
+
+
+
+    /* -------------Manage Value Section---------------- */
+    .value {
+        margin-top: 50px;
+    }
+    
+    .valueleft {
+        text-align: center;
+    }
+
+    .valueleft > h1 {
+        color: var(--col2);
+    }
+
+    .valueleft > p {
+        color: var(--neu1);
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .valueright {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .valuelist {
+        display: flex;
+    }
+
     /* -------------End---------------- */
 }
 
