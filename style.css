@@ -5,6 +5,7 @@
     /* Primary colors */
     --col1: hsl(12, 88%, 59%);
     --col2: hsl(228, 39%, 23%);
+    --col3: hsl(227, 77%, 8%);
 
     /* Neutral colors */
     --neu1: hsl(227, 12%, 61%);
@@ -222,6 +223,49 @@
     }
 
     /* -------------End---------------- */
+
+
+     /* -------------Footer Section---------------- */
+
+    footer {
+        background-color: var(--col3);
+        color: var(--neu3);
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        padding-top: 40px;
+        margin-left: -24px;
+        margin-right: -24px;
+    }
+
+    .newsletter {
+        text-align: center;
+    }
+
+    .social {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .social-icons{
+        text-align: center;
+    }
+
+    .links {
+        display: flex;
+        padding-left: 20px;
+    }
+
+    ul, li {
+        font-family: var(--ff);
+        list-style-type: none;
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+     /* -------------End---------------- */
 }
 
 /* @media screen and (min-width: 376px), (max-width:1365) {
