@@ -23,7 +23,7 @@
 
 
 /* -------------Mobile Screen---------------- */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 475px) {
     body {
         background-color: var(--neu4);
     }
@@ -263,6 +263,23 @@
         list-style-type: none;
         font-size: 12px;
         line-height: 24px;
+    }
+
+    .newsletter {
+        padding-bottom: 20px;
+    }
+
+    .email {
+        padding: 12px 16px;
+        border-radius: 50px;
+    }
+
+    .submit {
+        padding: 12px 24px;
+        border-radius: 50px;
+        border: none;
+        color: var(--neu3);
+        background-color: var(--col1);
     }
 
      /* -------------End---------------- */
