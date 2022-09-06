@@ -87,9 +87,11 @@
         font-size: 12px; 
         margin-bottom: 50px
     }
-
+    .heroright {
+        text-align: center;
+    }
     .heroright > img {
-        width: 320px;
+        width: 412px;
     }
     /* -------------End---------------- */
 
