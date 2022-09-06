@@ -23,7 +23,7 @@
 
 
 /* -------------Mobile Screen---------------- */
-@media screen and (max-width: 475px) {
+@media screen and (max-width: 375px) {
     body {
         background-color: var(--neu4);
     }
@@ -89,7 +89,7 @@
     }
 
     .heroright > img {
-        width: 250px;
+        width: 320px;
     }
     /* -------------End---------------- */
 
